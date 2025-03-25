@@ -48,12 +48,12 @@ O projeto contém os seguintes arquivos:
 
 #### A página web criada neste desafio contém:
 
-✅ Índice com links de navegação interna
-✅ Estrutura básica de um documento HTML
-✅ Explicação sobre **Clients e Servers**
-✅ História dos computadores
-✅ Uso de listas ordenadas e não ordenadas
-✅ Links de referência
+✅ Índice com links de navegação interna  
+✅ Estrutura básica de um documento HTML  
+✅ Explicação sobre **Clients e Servers**  
+✅ História dos computadores  
+✅ Uso de listas ordenadas e não ordenadas  
+✅ Links de referência  
 
 ---
 
