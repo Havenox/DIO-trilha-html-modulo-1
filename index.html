@@ -1,62 +1,132 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página - Módulo I - Primeiros Passos com HTML</title>
-</head>
-<body>
-    <h1>Módulo 1 - Primeiros Passos com HTML</h1>
-    <hr />
+   <html lang="pt-br">
+         <head>
+         <meta charset="UTF-8">
+         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Página - Módulo I - Primeiros Passos com HTML</title>
+      </head>
+         <body>
+         <h1>Módulo 1 - Primeiros Passos com HTML</h1>
+         <hr />
 
-    <h2>Índice</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste índice você deve colocar os tópicos que mais entendeu. Estes apenas são sugestões.</p>
-    <ul>
-        <li><a href="#">História dos computadores</a></li>
-        <li><a href="#">O que são <i>Clients</i>?</a></li>
-        <li><a href="#">O que são <i>Servers</i>?</a></li>
-        <li><a href="#">Como é uma estrutura básica de um HTML?</a></li>
-        <li><a href="#">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
-        <li><a href="#">Links de referências</a></li>
-    </ul>
+         <h2>Índice</h2>
+               <ul>
+                  <li><a href="#historia">História dos computadores</a></li>
+                  <li><a href="#clients">O que são <i>Clients</i>?</a></li>
+                  <li><a href="#servers">O que são <i>Servers</i>?</a></li>
+                  <li><a href="#estrutura">Como é uma estrutura básica de um HTML?</a></li>
+                  <li><a href="#listas">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+                  <li><a href="#links">Links de referências</a></li>
+                  <li><a href="about.html">Sobre mim</a></li>
+               </ul>
+         <hr/>
+         <h2 id="historia">História dos computadores</h2>
+            <p>A história dos computadores é fascinante e cheia de avanços tecnológicos marcantes.</p>
+            <p>Os primeiros computadores, como o <b>ENIAC</b>, eram gisgantescos, feitos apenas para alguns cálculos complexos e especificos e ocupavam espaços do tamanho de salas inteiras.</p>
 
-    <h2>História dos computadores</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+         <h3>Os Primeiros Computadores:</h3>
+            <ul>
+               <li>Antes dos computadores eletrônicos, existiam <strong>máquinas mecânicas</strong> para cálculos, como a <strong>Máquina Analítica</strong> de Charles Babbage no século XIX.</li>
+               <li>O <strong>ENIAC</strong> (1946) foi um dos primeiros computadores totalmente eletrônicos e digitais, ocupando cerca de 167 m² e pesando mais de 27 toneladas.</li>
+               <li>Usava <strong>válvulas termiônicas</strong>, que geravam muito calor e consumiam enorme quantidade de energia.</li>
+            </ul>
+         <h3>Evolução dos Computadores:</h3>
+            <ul>
+               <li><strong>Anos 1940-1950:</strong> Computadores como o <strong>UNIVAC I</strong> começaram a ser comercializados, ainda baseados em válvulas.</li>
+               <li><strong>Anos 1950-1960:</strong> Com a invenção do <strong>transistor</strong>, os computadores ficaram menores, mais rápidos e eficientes.</li>
+               <li><strong>Anos 1960-1970:</strong> Chegada dos <strong>circuitos integrados</strong>, permitindo computadores mais acessíveis.</li>
+               <li><strong>Anos 1970-1980:</strong> Primeiros <strong>microcomputadores</strong> e o início da revolução dos PCs.</li>
+               <li><strong>Anos 1990-2000:</strong> Expansão da internet e popularização da computação pessoal.</li>
+               <li><strong>Anos 2000 em diante:</strong> Avanços em <strong>computação móvel, inteligência artificial e computação em nuvem</strong>.</li>
+            </ul>
+         <h3>Origem do Termo "Bug"</h3>
+         <p>A anedota sobre insetos é verdadeira! Em 1947, a cientista <strong>Grace Hopper</strong> e sua equipe encontraram um verdadeiro inseto (uma mariposa) preso em um computador <strong>Mark II</strong>, causando falhas. Eles registraram isso como um <i>bug</i>, e o termo passou a ser usado para falhas em sistemas computacionais.</p>
 
-    <h2>O que são <i>Clients</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+         <hr/>
+         <h2 id="clients">O que são <strong>Clients</strong>?</h2>
 
-    <h2>O que são <i>Servers</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+            <p>O termo <strong>Client</strong> (ou Cliente) refere-se à parte de um sistema que interage diretamente com o usuário final, consumindo serviços fornecidos por um servidor.</p>
+            <p>Pode ser a interface de uma aplicação, a parte visual de um website, ou a parte <i>"jogável"</i> de um jogo.</p>
 
-    <h2>Como é uma estrutura básica de um HTML?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+         <h3>Exemplos de Clients:</h3>
+            <ul>
+               <li><strong>Aplicações Web:</strong> O navegador acessando um site (HTML, CSS, JavaScript).</li>
+               <li><strong>Aplicações Desktop/Mobile:</strong> O aplicativo de um banco no seu celular.</li>
+               <li><strong>Jogos Online:</strong> O software instalado no PC que se conecta ao servidor do jogo.</li>
+               <li><strong>APIs:</strong> Um programa que consome uma API para obter informações.</li>
+            </ul>
 
-    <h2>Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+         <hr/>
+         <h2 id="servers">O que são <strong>Servers</strong>?</h2>
 
-    <h2>Links de referências</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Coloque links para outras páginas que falam sobre estes assuntos. Não esquece de que precisa abrir em outra aba/janela do navegador.</p>
-    <ul>
-        <li><a href="#">http://dio.me</a></li>
-        <li><a href="#">http://w3c.org</a></li>
-    </ul>
+            <p><strong>Servers</strong> (Servidores) são responsáveis por fornecer os serviços que os Clients consomem.</p>
+            <p>Eles <i>armazenam, processam e gerenciam</i> informações, garantindo que os dados sejam acessíveis e consistentes para os clientes conectados.</p>
+         
+         <h3>Características de um <strong>Server</strong></h3>
+            <ul>
+               <li><strong>Processamento de Dados:</strong> Executa operações solicitadas pelos clientes.</li>
+               <li><strong>Armazenamento:</strong> Mantém banco de dados, arquivos e informações persistentes.</li>
+               <li><strong>Conectividade:</strong> Recebe e responde requisições de múltiplos clientes.</li>
+               <li><strong>Segurança:</strong> Controla acessos, autenticação e proteção contra ataques.</li>
+            </ul>
 
-</body>
-</html>
+         <h3>Exemplos de <strong>Servers:</strong></h3>
+            <ul>
+               <li><strong>Servidor Web:</strong> Hospeda sites e APIs (Ex.: Apache, Nginx).</li>
+               <li><strong>Servidor de Banco de Dados:</strong> Gerencia dados estruturados (Ex.: MySQL, PostgreSQL).</li>
+               <li><strong>Servidor de Jogos:</strong> Mantém o mundo do jogo e sincroniza os jogadores.</li>
+               <li><strong>Servidor de Arquivos:</strong> Permite armazenamento e compartilhamento de arquivos.</li>
+            </ul>
+
+
+         <hr/>
+         <h2 id="estrutura">Como é uma estrutura básica de um HTML?</h2>
+            <p>A Estrutura básica de uma página <strong>HTML</strong> é composta, primeiramente, pela tag <strong>"HTML"</strong>, que informa ao navegador, que o conteúdo dessa tag é uma página da web.</p>
+            <p>Logo em seguida, as tags <strong>"HEAD"</strong> e <strong>"BODY"</strong> formam a página da web.</p>
+         <h3>Tag <strong>"HEAD":</strong></h3>
+            <ul>
+               <li>Dentro da tag <strong>"HEAD"</strong> fica a parte do código que é pre-carregada pelo navegador. É onde fica tudo aquilo que é necessario para o funcionamento da pagina, porém não será mostrado ao usuario.</li>
+               <li>É na tag <strong>"HEAD"</strong>, que fica por exemplo a tag <strong>"TITLE"</strong>, que define o titulo da pagina, que aparece na aba do browser. E além disso, é na tag <strong>"HEAD"</strong> onde ficam as referencias e importações, como links para importar fontes ou códigos javascript, para a página web.</li>
+            </ul>
+         <h3>Tag <strong>"BODY"</strong></h3>
+            <ul>
+               <li>É na tag <strong>"BODY"</strong> que fica a parte vísivel para o usuário da página web. É nessa tag onde que ficam todos os textos, imagens, videos e elementos que o usuário irá consumir.</li>
+            </ul>
+         <hr/>
+         <h2 id="listas">Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
+            <p>As listas ordenadas e não ordenadas, são tags usadas para criar listas, como o nome diz, ordenadas e não ordenadas.</p>
+         <h3>Nas listas Ordenadas:</h3>
+            <ol>
+               <li>Os itens ficam organizados de forma ordenada por numeros ou letras.</li>
+               <li>Cada novo item, tem um novo número ou uma nova letra.</li>
+               <li>Trazendo assim um aspecto de ordem numérica ou alfabetica definida.
+            </ol>
+         <h3>Já nas listas não ordenadas:</h3>
+            <ul>
+               <li>Os itens da lista ficam separados por algum tipo de pontuação</li>
+               <li>Onde Cada novo iten, tem uma pontuação diferente</li>
+               <li>E que não necessáriamente se remete uma ordem especifica.</li>
+            </ul>
+
+         <h4>E dentro de uma lista de itens:</h4>
+            <ol>
+               <li>Pode haver uma sublista de itens:</li>
+               <ol>
+                  <li>Que pode ser útil para organizar o conteúdo</li>
+                  <li>Da forma que for mais adequada</li>
+               </ol>
+               <li>Para o Objetivo da Página</li>
+            </ol>
+            <ul>
+               <li>O Uso de Listas de itens são extremamente úteis para organizar texto ou para criação de menus, utiulizando estilização de texto.</li>
+            </ul>
+         <hr/>
+         <h2 id="links">Links de referências</h2>
+               <ul>
+                  <li><a href="https://dio.me" target="_blank">Dio.me</a></li>
+                  <li><a href="https://w3c.org" target="_blank">W3c.org</a></li>
+               </ul>
+
+      </body>
+   </html>
